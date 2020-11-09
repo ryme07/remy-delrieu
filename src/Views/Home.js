@@ -1,16 +1,15 @@
 import React from "react";
-import Card from "../Components/Card";
-import { Fade } from "react-awesome-reveal";
+import "../Style/Home.scss";
 
 export default function Home() {
   return (
-    <div className="component first-component">
-      <Fade direction="left" duration={2000}>
-        <h2>First Component</h2>
-      </Fade>
-      <Fade direction="right" duration={1000}>
-        <Card />
-      </Fade>
+    <div className="main-container">
+      <div className="vertical-line"></div>
+      <div className="title">
+        <p>Hi, I am</p>
+        <h1>REMY DELRIEU</h1>
+        <p>Freelance Web Developer</p>
+      </div>
     </div>
   );
 }

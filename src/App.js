@@ -1,7 +1,8 @@
-import "./App.css";
+import "./Style/App.scss";
 import React from "react";
 import ReactPageScroller from "react-page-scroller";
 import Home from "./Views/Home";
+import Project from "./Views/Project";
 import About from "./Views/About";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <React.Fragment>
       <ReactPageScroller>
         <Home />
+        <Project />
         <About />
       </ReactPageScroller>
     </React.Fragment>

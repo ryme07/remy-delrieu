@@ -12,7 +12,8 @@
     "react-page-scroller": "^2.0.11-beta",
     "react-scripts": "4.0.0",
     "react-spring": "^8.0.27",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "node-sass": "^4.14.1"
   },
   "scripts": {
     "start": "react-scripts start",

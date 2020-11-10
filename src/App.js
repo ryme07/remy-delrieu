@@ -11,6 +11,8 @@ function App() {
       <ReactPageScroller>
         <Home />
         <Project />
+        <Project style={{ backgroundColor: "#0a192f" }} />
+        <Project />
         <About />
       </ReactPageScroller>
     </React.Fragment>

@@ -10,9 +10,27 @@ function App() {
     <React.Fragment>
       <ReactPageScroller>
         <Home />
-        <Project />
-        <Project style={{ backgroundColor: "#0a192f" }} />
-        <Project />
+        <Project
+          title="DSI POLE EMPLOI"
+          subtitle="JRAD V2"
+          framework="Angular"
+          secondTechno="Jenkins"
+          thirdTechno="SonarQube"
+        />
+        <Project
+          title="BEWARE CYBERLABS"
+          subtitle="QUIZ APP"
+          framework="VueJs"
+          secondTechno="NodeJs"
+          thirdTechno="TypeOrm"
+        />
+        <Project
+          title="WILD CODE SCHOOL"
+          subtitle="HACKASTAR"
+          framework="Angular"
+          secondTechno="NodeJS"
+          thirdTechno="Typescript"
+        />
         <About />
       </ReactPageScroller>
     </React.Fragment>

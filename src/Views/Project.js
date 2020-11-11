@@ -14,7 +14,7 @@ export default function Project(props) {
         <Fade direction="top" delay={1500} duration={2500}>
           <h5 className="subtitle">{props.subtitle}</h5>
         </Fade>
-        <Fade direction="left" delay={1000}>
+        <Fade direction="left" delay={700}>
           <div className="block">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

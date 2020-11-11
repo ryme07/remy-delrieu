@@ -25,7 +25,7 @@ function App() {
           thirdTechno="TypeOrm"
         />
         <Project
-          title="WILD CODE SCHOOL"
+          title="WEB PROJECTS"
           subtitle="HACKASTAR"
           framework="Angular"
           secondTechno="NodeJS"

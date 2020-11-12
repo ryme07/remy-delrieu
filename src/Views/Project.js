@@ -3,7 +3,7 @@ import Card from "../Components/Card";
 import { Fade, Flip, Zoom } from "react-awesome-reveal";
 import "../Style/Project.scss";
 
-export default function Project(props) {
+export default function Project(props, ...cards) {
   return (
     <div {...props} className="componentProject firstProject">
       <div className="project">
@@ -26,14 +26,11 @@ export default function Project(props) {
         <Flip direction="vertical" delay={1600} duration={1000}>
           <ul className="techno">
             <li>{props.framework}</li>
-            <li>{props.secondTechno}</li>
-            <li>{props.thirdTechno}</li>
+            <li>{props.secondtechno}</li>
+            <li>{props.thirdtechno}</li>
           </ul>
         </Flip>
       </div>
-      <Zoom direction="bottom" delay={1000} duration={2000}>
-        <Card />
-      </Zoom>
     </div>
   );
 }

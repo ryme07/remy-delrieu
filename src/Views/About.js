@@ -1,5 +1,8 @@
 import React from "react";
 import "../Style/About.scss";
+import bobby from "../Assets/bonhomme.svg";
+import { ImLinkedin } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
 
 export default function About() {
   const getCurrentYear = () => new Date().getFullYear();
@@ -12,11 +15,18 @@ export default function About() {
           nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
           felis nec erat
         </p>
-        <p className="image">IMAGE</p>
+        <img className="image" src={bobby} alt="little-man-logo" />
       </div>
       <div className="contact-container">
         <div>
-          <p>icon</p>
+          <p>
+            <i>
+              <ImLinkedin size={25} />
+            </i>
+            <i>
+              <ImGithub size={25} />
+            </i>
+          </p>
           <div className="line">
             <hr />
           </div>

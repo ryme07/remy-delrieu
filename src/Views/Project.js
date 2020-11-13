@@ -19,7 +19,7 @@ export default function Project(propsproject) {
   return (
     <div {...propsproject} className="componentProject firstProject">
       <div className="project">
-        <Fade direction="left">
+        <Fade direction="left" duration={1500}>
           <h2>{propsproject.title}</h2>
         </Fade>
 
@@ -50,7 +50,8 @@ export default function Project(propsproject) {
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
           style={{ transform: props.xys.interpolate(trans) }}
         >
-          {propsproject.hello}
+          <div className="contentCard">{propsproject.stars}</div>
+          <div>{propsproject.hello}</div>
         </animated.div>
       </Zoom>
     </div>

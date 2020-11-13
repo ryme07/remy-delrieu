@@ -4,8 +4,7 @@ import ReactPageScroller from "react-page-scroller";
 import Home from "./Views/Home";
 import Project from "./Views/Project";
 import About from "./Views/About";
-// import { Zoom } from "react-awesome-reveal";
-// import Card from "./Components/Card";
+import Hackstar from "./Components/Hackstars";
 
 function App() {
   const ComponentOne = () => <div>Hello world!</div>;
@@ -17,6 +16,7 @@ function App() {
   );
   const ComponentThree = ({ foo }) => <div>{foo}</div>;
 
+  let titletest = "DSI POLE EMPLOI";
   // const WrapperPE = () => {
   //   return (
   //     <div className="wrapper">
@@ -67,12 +67,27 @@ function App() {
   //     </div>
   //   );
   // };
+
+  /*
+it doesn't work :(
+  {projectsdata.map((data) => (
+          <Project
+            title={data.title}
+            subtitle={data.subtitle}
+            framework={data.framework}
+            secondtechno={data.secondtechno}
+            thirdtechno={data.thirdtechno}
+          />
+        ))}
+
+        */
   return (
     <React.Fragment>
       <ReactPageScroller>
         <Home />
+
         <Project
-          title="DSI POLE EMPLOI"
+          title={titletest}
           subtitle="JRAD V2"
           framework="Angular"
           secondtechno="Jenkins"
@@ -94,7 +109,7 @@ function App() {
           framework="Angular"
           secondtechno="NodeJS"
           thirdtechno="Typescript"
-          hello="WEB PROJECT"
+          stars={<Hackstar />}
         />
         {/* <WrapperPE className="wrapper" />
         <WrapperBC className="wrapper" />

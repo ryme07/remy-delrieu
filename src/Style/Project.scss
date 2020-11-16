@@ -84,6 +84,9 @@ ul.techno>li {
     transition: box-shadow 0.5s;
     will-change: transform;
     border: 15px solid var(--color-white);
+    transform: translateX(-50%) translateY(calc(-50% - .9rem));
+    -webkit-font-smoothing: subpixel-antialiased;
+
     // padding: 3rem;
 }
 
@@ -95,4 +98,11 @@ ul.techno>li {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.contentCardDsi {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    filter: blur(0);
 }

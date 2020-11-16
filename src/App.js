@@ -5,6 +5,7 @@ import Home from "./Views/Home";
 import Project from "./Views/Project";
 import About from "./Views/About";
 import Hackstar from "./Components/Hackstars";
+import DsiPE from "./Components/DsiPE";
 
 function App() {
   const ComponentOne = () => <div>Hello world!</div>;
@@ -85,14 +86,13 @@ it doesn't work :(
     <React.Fragment>
       <ReactPageScroller>
         <Home />
-
         <Project
           title={titletest}
           subtitle="JRAD V2"
           framework="Angular"
           secondtechno="Jenkins"
           thirdtechno="SonarQube"
-          hello={<ComponentTwo />}
+          dsi={<DsiPE />}
         />
         <Project
           title="BEWARE CYBERLABS"

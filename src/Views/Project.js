@@ -51,6 +51,7 @@ export default function Project(propsproject) {
           style={{ transform: props.xys.interpolate(trans) }}
         >
           <div className="contentCard">{propsproject.stars}</div>
+          <div className="contentCardDsi"> {propsproject.dsi}</div>
           <div>{propsproject.hello}</div>
         </animated.div>
       </Zoom>

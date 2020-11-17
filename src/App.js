@@ -8,14 +8,14 @@ import Hackstar from "./Components/Hackstars";
 import DsiPE from "./Components/DsiPE";
 
 function App() {
-  const ComponentOne = () => <div>Hello world!</div>;
-  const ComponentTwo = () => (
-    <div>
-      <div>Hola el mundo!</div>
-      <ComponentThree foo={<ComponentOne />} />
-    </div>
-  );
-  const ComponentThree = ({ foo }) => <div>{foo}</div>;
+  // const ComponentOne = () => <div>Hello world!</div>;
+  // const ComponentTwo = () => (
+  //   <div>
+  //     <div>Hola el mundo!</div>
+  //     <ComponentThree foo={<ComponentOne />} />
+  //   </div>
+  // );
+  // const ComponentThree = ({ foo }) => <div>{foo}</div>;
 
   let titletest = "DSI POLE EMPLOI";
   // const WrapperPE = () => {

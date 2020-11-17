@@ -98,8 +98,8 @@ export default function DsiPE() {
           <div className="right">
             <div className="container-right">
               <p>JOB</p>
-              <p className="green">TU : TOTAL : 2 SKIP: 0 FAILED</p>
-              <p className="orange">TU : TOTAL: 2 SKIP: 2 FAILED: 0</p>
+              <p className="green">TU : TOTAL : 2 SKIP: 0 FAILED: 0</p>
+              <p className="orange">TI : TOTAL: 2 SKIP: 2 FAILED: 0</p>
               <p className="red">TS: TOTAL: 2 SKIP: 0 FAILED: 1</p>
               <p>
                 LAST COMMIT : {getCurrentDate()} <br />

@@ -1,5 +1,5 @@
 import "./Style/App.scss";
-import React from "react";
+import React, { useState } from "react";
 import ReactPageScroller from "react-page-scroller";
 import Home from "./Views/Home";
 import Project from "./Views/Project";
@@ -10,6 +10,39 @@ import Beware from "./Components/Beware";
 
 function App() {
   let titletest = "DSI POLE EMPLOI";
+
+  const [projects, setProjects] = useState([
+    [
+      {
+        title: "DSI POLE EMPLOI",
+        subtitle: "JRAD V2",
+        framework: "Angular",
+        secondtechno: "Jenkins",
+        thirdtechno: "SonarQube",
+        cardRenderer: <DsiPE />,
+      },
+    ],
+    [
+      {
+        title: "BEWARE CYBERLABS",
+        subtitle: "QUIZ APP",
+        framework: "VueJs",
+        secondtechno: "NodeJs",
+        thirdtechno: "TypeOrm",
+        cardRenderer: "Beware",
+      },
+    ],
+    [
+      {
+        title: "WEB PROJECTS",
+        subtitle: "HACKASTAR",
+        framework: "Angular",
+        secondtechno: "NodeJS",
+        thirdtechno: "Typescript",
+        cardRenderer: <Hackstar />,
+      },
+    ],
+  ]);
 
   /*
 it doesn't work :(
@@ -29,28 +62,16 @@ it doesn't work :(
       <ReactPageScroller>
         <Home />
         <Project
-          title={titletest}
-          subtitle="JRAD V2"
-          framework="Angular"
-          secondtechno="Jenkins"
-          thirdtechno="SonarQube"
-          dsi={<DsiPE />}
+          projects={projects[0]}
+          // dsi={<DsiPE />}
         />
         <Project
-          title="BEWARE CYBERLABS"
-          subtitle="QUIZ APP"
-          framework="VueJs"
-          secondtechno="NodeJs"
-          thirdtechno="TypeOrm"
-          hello="Beware"
+          projects={projects[1]}
+          // hello="Beware"
         />
         <Project
-          title="WEB PROJECTS"
-          subtitle="HACKASTAR"
-          framework="Angular"
-          secondtechno="NodeJS"
-          thirdtechno="Typescript"
-          stars={<Hackstar />}
+          projects={projects[2]}
+          // stars={<Hackstar />}
         />
         <About />
       </ReactPageScroller>

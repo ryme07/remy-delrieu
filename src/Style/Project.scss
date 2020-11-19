@@ -28,6 +28,10 @@
     align-items: flex-end;
 }
 
+.project-title {
+    margin-right: 2rem;
+}
+
 h2 {
     padding: 1rem;
     // margin: 0 0 0 0;
@@ -87,6 +91,7 @@ ul.techno>li {
     border: none;
     transform: translateX(-50%) translateY(calc(-50% - 0.2em));
     -webkit-font-smoothing: subpixel-antialiased;
+    margin-top: 5rem;
 
 
     // padding: 3rem;

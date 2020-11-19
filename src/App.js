@@ -29,7 +29,7 @@ function App() {
         framework: "VueJs",
         secondtechno: "NodeJs",
         thirdtechno: "TypeOrm",
-        cardRenderer: "Beware",
+        cardRenderer: <Beware />,
       },
     ],
     [
@@ -61,6 +61,7 @@ it doesn't work :(
     <React.Fragment>
       <ReactPageScroller>
         <Home />
+
         <Project
           projects={projects[0]}
           // dsi={<DsiPE />}

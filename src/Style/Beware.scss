@@ -1,13 +1,5 @@
-.beware-wrapper {
+.beware-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.script-bf-box {
-    width: 30%;
-    height: 90%;
-    background: black;
-    margin: 5px;
-    will-change: transform;
-}
-
-.script-bf-box:hover {}

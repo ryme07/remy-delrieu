@@ -50,9 +50,9 @@ export default function Project(propsproject) {
           onMouseLeave={() => set({ xys: [0, 0, 1] })}
           style={{ transform: props.xys.interpolate(trans) }}
         >
-          <div className="contentCard">{propsproject.stars}</div>
-          <div className="contentCardDsi"> {propsproject.dsi}</div>
-          <div>{propsproject.hello}</div>
+          <div className="contentCardBeware">{propsproject.stars}</div>
+          <div className="contentCardBeware"> {propsproject.dsi}</div>
+          <div className="contentCardBeware">{propsproject.hello}</div>
         </animated.div>
       </Zoom>
     </div>

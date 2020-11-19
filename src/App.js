@@ -6,68 +6,10 @@ import Project from "./Views/Project";
 import About from "./Views/About";
 import Hackstar from "./Components/Hackstars";
 import DsiPE from "./Components/DsiPE";
+import Beware from "./Components/Beware";
 
 function App() {
-  // const ComponentOne = () => <div>Hello world!</div>;
-  // const ComponentTwo = () => (
-  //   <div>
-  //     <div>Hola el mundo!</div>
-  //     <ComponentThree foo={<ComponentOne />} />
-  //   </div>
-  // );
-  // const ComponentThree = ({ foo }) => <div>{foo}</div>;
-
   let titletest = "DSI POLE EMPLOI";
-  // const WrapperPE = () => {
-  //   return (
-  //     <div className="wrapper">
-  //       <Project
-  //         title="DSI POLE EMPLOI"
-  //         subtitle="JRAD V2"
-  //         framework="Angular"
-  //         secondtechno="Jenkins"
-  //         thirdtechno="SonarQube"
-  //       />
-  //       <Zoom direction="bottom" delay={1000} duration={2000}>
-  //         <Card hello="PE PROJECT" />
-  //       </Zoom>
-  //     </div>
-  //   );
-  // };
-
-  // const WrapperBC = () => {
-  //   return (
-  //     <div className="wrapper">
-  //       <Project
-  //         title="BEWARE CYBERLABS"
-  //         subtitle="QUIZ APP"
-  //         framework="VueJs"
-  //         secondtechno="NodeJs"
-  //         thirdtechno="TypeOrm"
-  //       />
-  //       <Zoom direction="bottom" delay={1000} duration={2000}>
-  //         <Card hello="BEWARE PROJECT" />
-  //       </Zoom>
-  //     </div>
-  //   );
-  // };
-
-  // const WrapperWP = () => {
-  //   return (
-  //     <div className="wrapper">
-  //       <Project
-  //         title="WEB PROJECTS"
-  //         subtitle="HACKASTAR"
-  //         framework="Angular"
-  //         secondtechno="NodeJS"
-  //         thirdtechno="Typescript"
-  //       />
-  //       <Zoom direction="bottom" delay={1000} duration={2000}>
-  //         <Card hello="web project" />
-  //       </Zoom>
-  //     </div>
-  //   );
-  // };
 
   /*
 it doesn't work :(
@@ -100,9 +42,8 @@ it doesn't work :(
           framework="VueJs"
           secondtechno="NodeJs"
           thirdtechno="TypeOrm"
-          hello="BEWARE"
+          hello="Beware"
         />
-
         <Project
           title="WEB PROJECTS"
           subtitle="HACKASTAR"
@@ -111,9 +52,6 @@ it doesn't work :(
           thirdtechno="Typescript"
           stars={<Hackstar />}
         />
-        {/* <WrapperPE className="wrapper" />
-        <WrapperBC className="wrapper" />
-        <WrapperWP className="wrapper" /> */}
         <About />
       </ReactPageScroller>
     </React.Fragment>

@@ -18,6 +18,7 @@ function App() {
         secondtechno: "Jenkins",
         thirdtechno: "SonarQube",
         cardRenderer: <DsiPE />,
+        num: "01",
       },
     ],
     [
@@ -28,6 +29,7 @@ function App() {
         secondtechno: "NodeJs",
         thirdtechno: "TypeOrm",
         cardRenderer: <Beware />,
+        num: "02",
       },
     ],
     [
@@ -38,6 +40,7 @@ function App() {
         secondtechno: "NodeJS",
         thirdtechno: "Typescript",
         cardRenderer: <Hackstar />,
+        num: "03",
       },
     ],
   ];

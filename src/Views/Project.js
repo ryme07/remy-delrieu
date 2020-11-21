@@ -20,7 +20,7 @@ export default function Project(props) {
     <>
       {props.projects.map((project, index) => (
         <div className="componentProject firstProject" key={index}>
-          <div className="project" key={index}>
+          <div className="project">
             <Fade direction="left" delay={700}>
               <div className="title-project">
                 <h2>{project.title}</h2>

@@ -90,3 +90,26 @@
         transform: rotate(360deg)
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+
+    .solar-system {
+        width: 12.9rem;
+        height: 12.9rem;
+        margin: 0;
+    }
+
+    .planet2:after {
+        width: 1.2rem;
+        height: 1.2rem;
+        top: -10px;
+        background: #ab711d;
+    }
+
+    .planet3:after {
+        width: 0.8rem;
+        height: 0.8rem;
+        top: -6px;
+        background: #ffddab;
+    }
+}

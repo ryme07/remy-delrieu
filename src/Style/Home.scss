@@ -40,13 +40,13 @@
     margin-right: 2rem;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1200px) {
+@media screen and (min-width: 651px) and (max-width: 1100px) {
 
     .title {
 
         h1 {
             margin: -2.5% 0 -2% 0%;
-            font-size: 6em;
+            font-size: 5em;
         }
 
         p {
@@ -61,7 +61,7 @@
 
 }
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 650px) {
 
     .main-container {
         padding-left: 2rem;

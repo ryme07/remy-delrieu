@@ -22,7 +22,7 @@ export default function Project(props) {
         <div className="componentProject firstProject" key={index}>
           <div className="container-project">
             <div className="project">
-              <Fade direction="left" delay={700}>
+              <Fade direction="left" delay={700} className="fade-title">
                 <div className="title-project">
                   <h2>{project.title}</h2>
                 </div>
@@ -51,7 +51,12 @@ export default function Project(props) {
               {/* <Flip direction="vertical" delay={1500} duration={1100}>
                 <div className="index-project">{project.num}</div>
               </Flip> */}
-              <Zoom direction="bottom" delay={1000} duration={2000}>
+              <Zoom
+                direction="bottom"
+                delay={1000}
+                duration={2000}
+                className="zoom-card"
+              >
                 <animated.div
                   className="card"
                   onMouseMove={({ clientX: x, clientY: y }) =>

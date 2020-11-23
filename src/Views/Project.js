@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade, Flip, Zoom, Reveal } from "react-awesome-reveal";
+import { Fade, Flip, Zoom } from "react-awesome-reveal";
 import "../Style/Project.scss";
 import { useSpring, animated } from "react-spring";
 
@@ -48,9 +48,9 @@ export default function Project(props) {
               </Flip>
             </div>
             <div className="container-card">
-              <Flip direction="vertical" delay={1500} duration={1100}>
+              {/* <Flip direction="vertical" delay={1500} duration={1100}>
                 <div className="index-project">{project.num}</div>
-              </Flip>
+              </Flip> */}
               <Zoom direction="bottom" delay={1000} duration={2000}>
                 <animated.div
                   className="card"

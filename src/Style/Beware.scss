@@ -84,3 +84,34 @@
         box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 1220px) {
+    .title-question {
+        font-size: 2rem;
+    }
+
+    .beware-answers {
+
+
+        div {
+            height: 80px;
+            width: 80px;
+            font-size: 12px;
+        }
+
+        div:nth-child(2) {
+            border: 5px solid var(--color-additional);
+            height: 73px;
+            width: 75px;
+        }
+    }
+
+    .beware-validate {
+
+
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 12px;
+        }
+    }
+}

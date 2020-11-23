@@ -3,79 +3,89 @@
 .about.about-component {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     height: 100%;
-    width: 100%;
+    position: relative;
 
     h2 {
-        padding: 5rem 3rem 0 3rem;
-        margin: 0 0 0 5rem;
-        font-family: 'Ubuntu', sans-serif;
-        font-weight: 500;
+        padding: 1rem;
+        margin: 2rem 0 0 3rem;
     }
 }
 
 .about-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-items: flex-start;
-    height: 60%;
-
-}
-
-i {
-    color: var(--color-additional);
-    padding: 0.5rem;
-    cursor: pointer;
-
+    align-items: center;
 }
 
 .describeMe {
-    width: 45%;
-    font-size: 1.8rem;
-    margin-left: 12rem;
-    padding: 3.33rem;
-    color: var(--color-white);
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    line-height: 1.2;
-    font-weight: 300;
-}
-
-.image {
-    margin: 0 8rem 0 1rem;
-    color: var(--color-primary);
-
+    display: flex;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .contact-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 40%;
     align-items: flex-end;
-    padding-left: 3rem;
-    padding-right: 3rem;
-
-
 
     p {
         color: var(--color-additional);
+        padding: 0.5rem 5rem;
     }
 
     p:nth-child(odd) {
-
         writing-mode: vertical-lr;
     }
-
-    p:last-child {}
 }
 
-.line {
-    color: var(--color-white);
-    transform: rotate(90deg);
-    margin: 2rem 0.3rem 0 0;
-    line-height: 0;
+
+.icons {
+
+    i {
+        color: var(--color-additional);
+        padding: 0.5rem;
+        cursor: pointer;
+    }
 }
 
-.vertical {}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+
+    .about.about-component {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        position: relative;
+
+        h2 {
+            padding: 0.5rem;
+            margin: 1.5rem 0 0 2rem;
+        }
+    }
+
+    .image {
+        display: none;
+    }
+
+    .contact-container {
+
+        p {
+            padding: 0.5rem 0.5rem;
+        }
+
+        p:nth-child(odd) {
+            writing-mode: vertical-lr;
+        }
+    }
+}

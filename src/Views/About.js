@@ -18,7 +18,7 @@ export default function About() {
         <img className="image" src={bobby} alt="little-man-logo" />
       </div>
       <div className="contact-container">
-        <div>
+        <div className="icons">
           <p>
             <i>
               <ImLinkedin size={25} />
@@ -27,16 +27,16 @@ export default function About() {
               <ImGithub size={25} />
             </i>
           </p>
-          <div className="line">
+          {/* <div className="line">
             <hr />
-          </div>
+          </div> */}
         </div>
         <p>Designed & Built by Remy Delrieu - {getCurrentYear()}</p>
         <div>
-          <p>adresse@mail.com</p>
-          <div className="line">
+          <p>remydelrieupro@gmail.com</p>
+          {/* <div className="line">
             <hr />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,0 +1,7 @@
+{
+    "title": "Welcome to react using react-i18next",
+    "welcome": {
+        "hello": "Hi, I am",
+        "title": "Web Developer Freelance"
+    }
+}

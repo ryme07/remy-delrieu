@@ -8,59 +8,45 @@ import Hackstar from "./Components/Hackstars";
 import DsiPE from "./Components/DsiPE";
 import Beware from "./Components/Beware";
 
+const projects = [
+  [
+    {
+      title: "DSI POLE EMPLOI",
+      subtitle: "JRAD V2",
+      description:
+        "An App type of IHM (Human-Machine Interface) who presents results of differents Pôle Emploi's app in current developpment. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
+      framework: "Angular",
+      secondtechno: "Jenkins",
+      thirdtechno: "SonarQube",
+      cardRenderer: <DsiPE />,
+    },
+  ],
+  [
+    {
+      title: "BEWARE CYBERLABS",
+      subtitle: "QUIZ APP",
+      description:
+        "Beware Cyberlabs is a company specialized in cybersecurity. They have lot of clients around the world and propose many solutions to secure system and how defend yourself against cyber attacks. So I made this app to learn cyber security by means of lessons and quiz. This design is not the real one.",
+      framework: "VueJs",
+      secondtechno: "NodeJs",
+      thirdtechno: "TypeOrm",
+      cardRenderer: <Beware />,
+    },
+  ],
+  [
+    {
+      title: "WEB PROJECTS",
+      subtitle: "HACKASTAR",
+      description:
+        "This part concerned differents projects realized during hackathons of 24 hours. The first one is a Netflix's clone with horror theme. And the second is about stars and NASA. This projects were made with Angular, Material Design and NodeJs.",
+      framework: "Angular",
+      secondtechno: "NodeJS",
+      thirdtechno: "Typescript",
+      cardRenderer: <Hackstar />,
+    },
+  ],
+];
 function App() {
-  const projects = [
-    [
-      {
-        title: "DSI POLE EMPLOI",
-        subtitle: "JRAD V2",
-        description:
-          "An App type of IHM (Human-Machine Interface) who presents results of differents Pôle Emploi's app in current developpment. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
-        framework: "Angular",
-        secondtechno: "Jenkins",
-        thirdtechno: "SonarQube",
-        cardRenderer: <DsiPE />,
-      },
-    ],
-    [
-      {
-        title: "BEWARE CYBERLABS",
-        subtitle: "QUIZ APP",
-        description:
-          "Beware Cyberlabs is a company specialized in cybersecurity. They have lot of clients around the world and propose many solutions to secure system and how defend yourself against cyber attacks. So I made this app to learn cyber security by means of lessons and quiz. This design is not the real one.",
-        framework: "VueJs",
-        secondtechno: "NodeJs",
-        thirdtechno: "TypeOrm",
-        cardRenderer: <Beware />,
-      },
-    ],
-    [
-      {
-        title: "WEB PROJECTS",
-        subtitle: "HACKASTAR",
-        description:
-          "This part concerned differents projects realized during hackathons of 24 hours. The first one is a Netflix's clone with horror theme. And the second is about stars and NASA. This projects were made with Angular, Material Design and NodeJs.",
-        framework: "Angular",
-        secondtechno: "NodeJS",
-        thirdtechno: "Typescript",
-        cardRenderer: <Hackstar />,
-      },
-    ],
-  ];
-
-  /*
-it doesn't work :(
-  {projectsdata.map((data) => (
-          <Project
-            title={data.title}
-            subtitle={data.subtitle}
-            framework={data.framework}
-            secondtechno={data.secondtechno}
-            thirdtechno={data.thirdtechno}
-          />
-        ))}
-
-        */
   return (
     <React.Fragment>
       <ReactPageScroller>

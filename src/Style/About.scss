@@ -10,6 +10,9 @@
     h2 {
         padding: 1rem;
         margin: 2rem 0 0 3rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        font-size: 5rem;
     }
 }
 
@@ -17,15 +20,23 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 60%;
 }
 
 .describeMe {
     display: flex;
-    width: 400px;
+    width: 600px;
     height: 200px;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    font-size: 1.8rem;
+    padding: 3.33rem;
+    color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: left;
 }
 
 .contact-container {
@@ -59,23 +70,29 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1100px) {
+@media screen and (min-width: 200px) and (max-width: 1100px) {
 
     .about.about-component {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        align-items: center;
         height: 100%;
         position: relative;
 
         h2 {
             padding: 0.5rem;
-            margin: 1.5rem 0 0 2rem;
+            margin: 0
         }
     }
 
     .image {
         display: none;
+    }
+
+    .describeMe {
+        padding: 1rem;
+        width: 80%;
     }
 
     .contact-container {

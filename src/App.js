@@ -7,6 +7,7 @@ import About from "./Views/About";
 import Hackstar from "./Components/Hackstars";
 import DsiPE from "./Components/DsiPE";
 import Beware from "./Components/Beware";
+import { useTranslation } from "react-i18next";
 
 const projects = [
   [
@@ -46,6 +47,22 @@ const projects = [
     },
   ],
 ];
+
+function Wrapper() {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+  return (
+    <div>
+      <Home />
+      {/* <button onClick={() => changeLanguage("fr")}>fr</button>
+      <button onClick={() => changeLanguage("en")}>en</button> */}
+    </div>
+  );
+}
+
 function App() {
   return (
     <React.Fragment>

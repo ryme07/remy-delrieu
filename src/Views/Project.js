@@ -32,11 +32,7 @@ export default function Project(props) {
               </Fade>
               <Fade direction="left" delay={1000} duration={1300}>
                 <div className="block">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc maximus, nulla ut commodo sagittis, sapien dui mattis
-                    dui, non pulvinar lorem felis nec erat
-                  </p>
+                  <p>{project.description}</p>
                 </div>
               </Fade>
               <Flip direction="vertical" delay={1800} duration={1000}>

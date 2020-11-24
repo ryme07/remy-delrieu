@@ -14,6 +14,8 @@ function App() {
       {
         title: "DSI POLE EMPLOI",
         subtitle: "JRAD V2",
+        description:
+          "An App type of IHM (Human-Machine Interface) who presents results of differents Pôle Emploi's app in current developpment. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
         framework: "Angular",
         secondtechno: "Jenkins",
         thirdtechno: "SonarQube",

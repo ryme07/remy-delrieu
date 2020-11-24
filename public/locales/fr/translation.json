@@ -1,7 +1,14 @@
 {
-    "title": "Welcome to react using react-i18next",
     "welcome": {
         "hello": "Bonjour, je suis",
         "title": "Développeur Web Freelance"
+    },
+    "project": {
+        "descriptionDSI": "Une App de type IHM (Interface Homme-Machine) qui présente les différentes app de Pôle Emploi en cours de développement. Ils avaient besoin de récupérer les métriques de Jenkins et SonarQube. Cette app a été réalisée en Test Driven Development(TDD).",
+        "descriptionBeware": "Beware Cyberlabs est une entreprise spécialisée en cybersécurité. Ils ont beaucoup de clients à travers le monde et ils proposent de nombreuses solutions pour sécuriser vos systèmes et comment se défendre des attaques cyber. Cette app permet d'apprendre à travers des leçons et des quiz. Ce design ne représente pas celui de l'app finale.",
+        "descriptionWebProjects": "Cette partie concerne les différents projets réalisés durant deux hackathons de 24 heures. Le premier est un clone de Netflix sur le thème de l'horreur. Et le second avait pour sujet les étoiles et la NASA. Ces projets ont été conçus avec Angular, Material Design et NodeJs."
+    },
+    "about": {
+        "title": "A PROPOS"
     }
 }

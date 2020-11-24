@@ -32,7 +32,8 @@ export default function Project(props) {
               </Fade>
               <Fade direction="left" delay={1000} duration={1300}>
                 <div className="block">
-                  <p>{project.description}</p>
+                  {project.description}
+                  {/* <DescriptionBlock /> */}
                 </div>
               </Fade>
               <Flip direction="vertical" delay={1800} duration={1000}>

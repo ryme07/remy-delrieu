@@ -1,14 +1,16 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../Style/Home.scss";
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <div className="main-container">
       <div className="vertical-line"></div>
       <div className="title">
-        <p>Hi, I am</p>
+        <p>{t("welcome.hello")}</p>
         <h1>REMY DELRIEU</h1>
-        <p>Freelance Web Developer</p>
+        <p>{t("welcome.title")}</p>
       </div>
     </div>
   );

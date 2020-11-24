@@ -3,12 +3,14 @@ import "../Style/About.scss";
 import bobby from "../Assets/bonhomme.svg";
 import { ImLinkedin } from "react-icons/im";
 import { ImGithub } from "react-icons/im";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
+  const { t } = useTranslation();
   const getCurrentYear = () => new Date().getFullYear();
   return (
     <div className="about about-component">
-      <h2>ABOUT ME</h2>
+      <h2>{t("about.title")}</h2>
       <div className="about-container">
         <p className="describeMe">
           I am a web developer freelance specialized in Javascript and I use the

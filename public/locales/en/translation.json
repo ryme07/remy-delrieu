@@ -1,7 +1,14 @@
 {
-    "title": "Welcome to react using react-i18next",
     "welcome": {
         "hello": "Hi, I am",
         "title": "Web Developer Freelance"
+    },
+    "project": {
+        "descriptionDSI": "An App type of IHM (Human-Machine Interface) who presents results of differents Pôle Emploi's app in current developpment. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
+        "descriptionBeware": "Beware Cyberlabs is a company specialized in cybersecurity. They have lot of clients around the world and propose many solutions to secure system and how defend yourself against cyber attacks. So I made this app to learn cyber security by means of lessons and quiz. This design is not the real one.",
+        "descriptionWebProjects": "This part concerned differents projects realized during two hackathons of 24 hours. The first one is a Netflix's clone with horror theme. And the second is about stars and NASA. This projects were made with Angular, Material Design and NodeJs."
+    },
+    "about": {
+        "title": "ABOUT ME"
     }
 }

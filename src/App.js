@@ -63,6 +63,25 @@ function Wrapper() {
   );
 }
 
+function Page() {
+  // const { t, i18n } = useTranslation();
+
+  // const changeLanguage = (lng) => {
+  //   i18n.changeLanguage(lng);
+  // };
+
+  return (
+    <ReactPageScroller>
+      <Wrapper />
+      {/* <Home /> */}
+      <Project projects={projects[0]} />
+      <Project projects={projects[1]} />
+      <Project projects={projects[2]} />
+      <About />
+    </ReactPageScroller>
+  );
+}
+
 function App() {
   return (
     <React.Fragment>

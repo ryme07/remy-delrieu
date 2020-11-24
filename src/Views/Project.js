@@ -44,9 +44,6 @@ export default function Project(props) {
               </Flip>
             </div>
             <div className="container-card">
-              {/* <Flip direction="vertical" delay={1500} duration={1100}>
-                <div className="index-project">{project.num}</div>
-              </Flip> */}
               <Zoom
                 direction="bottom"
                 delay={1000}

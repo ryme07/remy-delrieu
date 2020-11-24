@@ -20,29 +20,30 @@ function App() {
         secondtechno: "Jenkins",
         thirdtechno: "SonarQube",
         cardRenderer: <DsiPE />,
-        num: "01",
       },
     ],
     [
       {
         title: "BEWARE CYBERLABS",
         subtitle: "QUIZ APP",
+        description:
+          "Beware Cyberlabs is a company specialized in cybersecurity. They have lot of clients around the world and propose many solutions to secure system and how defend yourself against cyber attacks. So I made this app to learn cyber security by means of lessons and quiz. This design is not the real one.",
         framework: "VueJs",
         secondtechno: "NodeJs",
         thirdtechno: "TypeOrm",
         cardRenderer: <Beware />,
-        num: "02",
       },
     ],
     [
       {
         title: "WEB PROJECTS",
         subtitle: "HACKASTAR",
+        description:
+          "This part concerned differents projects realized during hackathons of 24 hours. The first one is a Netflix's clone with horror theme. And the second is about stars and NASA. This projects were made with Angular, Material Design and NodeJs.",
         framework: "Angular",
         secondtechno: "NodeJS",
         thirdtechno: "Typescript",
         cardRenderer: <Hackstar />,
-        num: "03",
       },
     ],
   ];

@@ -31,10 +31,7 @@ export default function Project(props) {
                 <h5 className="subtitle">{project.subtitle}</h5>
               </Fade>
               <Fade direction="left" delay={1000} duration={1300}>
-                <div className="block">
-                  {project.description}
-                  {/* <DescriptionBlock /> */}
-                </div>
+                <div className="block">{project.description}</div>
               </Fade>
               <Flip direction="vertical" delay={1800} duration={1000}>
                 <ul className="techno">

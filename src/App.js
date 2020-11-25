@@ -14,7 +14,7 @@ const DSIBlock = () => {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <p>{t("project.descriptionDSI")}</p>
+      <p className="description">{t("project.descriptionDSI")}</p>
     </React.Fragment>
   );
 };
@@ -23,7 +23,7 @@ const BewareBlock = () => {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <p>{t("project.descriptionBeware")}</p>
+      <p className="description">{t("project.descriptionBeware")}</p>
     </React.Fragment>
   );
 };
@@ -32,7 +32,7 @@ const HackstarBlock = () => {
   const { t } = useTranslation();
   return (
     <React.Fragment>
-      <p>{t("project.descriptionWebProjects")}</p>
+      <p className="description">{t("project.descriptionWebProjects")}</p>
     </React.Fragment>
   );
 };
@@ -105,7 +105,7 @@ function Page() {
 
 const Loader = () => (
   <div className="App">
-    <div>loading...</div>
+    <div>Loading...</div>
   </div>
 );
 

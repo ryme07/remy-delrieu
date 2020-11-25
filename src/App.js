@@ -1,5 +1,5 @@
 import "./Style/App.scss";
-import React, { Suspense } from "react";
+import React, { Suspense, useState } from "react";
 import ReactPageScroller from "react-page-scroller";
 import Home from "./Views/Home";
 import Project from "./Views/Project";
@@ -75,16 +75,36 @@ const projects = [
 
 function Wrapper() {
   const { i18n } = useTranslation();
+  const [active, setActive] = useState(false);
+
+  const toggleButton = () => {
+    setActive(!active);
+    console.log("clicked");
+  };
 
   const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
+    i18n.changeLanguage(lng) && setActive(false);
   };
   return (
     <div className="wrapper-home">
       <Home />
-      <div className="buttons">
-        <button onClick={() => changeLanguage("fr")}>fr</button>
-        <button onClick={() => changeLanguage("en")}>en</button>
+      <div className="container-corner">
+        <div className={active ? "circle-menu circle-anim" : "circle-menu"}>
+          <button className="items-circle" onClick={() => changeLanguage("fr")}>
+            Fr
+          </button>
+          <button className="items-circle" onClick={() => changeLanguage("en")}>
+            En
+          </button>
+        </div>
+        <div
+          onClick={toggleButton}
+          className={active ? "btn-circle menu-anim" : "btn-circle"}
+        >
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
+        </div>
       </div>
     </div>
   );

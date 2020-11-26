@@ -114,7 +114,6 @@ function Page() {
   return (
     <ReactPageScroller>
       <Wrapper />
-      {/* <Home /> */}
       <Project projects={projects[0]} />
       <Project projects={projects[1]} />
       <Project projects={projects[2]} />
@@ -134,15 +133,6 @@ function App() {
     <Suspense fallback={<Loader />}>
       <Page />
     </Suspense>
-    // <React.Fragment>
-    //   <ReactPageScroller>
-    //     <Home />
-    //     <Project projects={projects[0]} />
-    //     <Project projects={projects[1]} />
-    //     <Project projects={projects[2]} />
-    //     <About />
-    //   </ReactPageScroller>
-    // </React.Fragment>
   );
 }
 

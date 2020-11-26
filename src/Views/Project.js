@@ -19,7 +19,7 @@ export default function Project(props) {
   return (
     <>
       {props.projects.map((project, index) => (
-        <div className="componentProject firstProject" key={index}>
+        <div className="componentProject" key={index}>
           <div className="container-project">
             <div className="project">
               <Fade direction="left" delay={700} className="fade-title">
@@ -28,7 +28,7 @@ export default function Project(props) {
                 </div>
               </Fade>
               <Fade direction="top" delay={1800} duration={2500}>
-                <h5 className="subtitle">{project.subtitle}</h5>
+                <h3 className="subtitle">{project.subtitle}</h3>
               </Fade>
               <Fade direction="left" delay={1000} duration={1300}>
                 <div className="block">{project.description}</div>

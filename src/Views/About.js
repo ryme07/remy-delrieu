@@ -20,7 +20,7 @@ export default function About() {
     }
   };
   return (
-    <div className="about about-component">
+    <div className="about-component">
       <h2>{t("about.title")}</h2>
       <div className="about-container">
         <p className="describeMe">{t("about.me")}</p>

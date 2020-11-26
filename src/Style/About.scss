@@ -1,6 +1,6 @@
 @import "../Css-variables/css-variables.scss";
 
-.about.about-component {
+.about-component {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -13,6 +13,7 @@
         font-family: 'Ubuntu', sans-serif;
         font-weight: 500;
         font-size: 5rem;
+        color: var(--color-primary);
     }
 }
 
@@ -91,10 +92,10 @@
     }
 
     // a:hover,
- // a:focus {
- //     background: rgba(0, 0, 0, .4);
- //     box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
- // }
+    // a:focus {
+    //     background: rgba(0, 0, 0, .4);
+    //     box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    // }
 
     a span {
         position: absolute;
@@ -102,7 +103,7 @@
         // margin-left: -35px;
         top: 0px;
         right: 120px;
-        color: #09c;
+        color: var(--color-additional);
         background: rgba(0, 0, 0, .9);
         padding: 15px;
         border-radius: 3px;

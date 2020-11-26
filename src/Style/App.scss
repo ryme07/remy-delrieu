@@ -39,6 +39,21 @@
 
 .description {
     text-align: justify;
+    font-size: 13px;
+    margin: 0.1rem;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .description {
+        font-size: 17.5px;
+    }
 }
 
 /*here*/

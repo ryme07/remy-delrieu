@@ -82,6 +82,44 @@
     padding: 6rem;
 }
 
+.mail {
+    a {
+        color: #ccc;
+        text-shadow: 0 -1px 0 black;
+        color: var(--color-additional);
+        text-decoration: none;
+    }
+
+    // a:hover,
+ // a:focus {
+ //     background: rgba(0, 0, 0, .4);
+ //     box-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+ // }
+
+    a span {
+        position: absolute;
+        // margin-top: 23px;
+        // margin-left: -35px;
+        top: 0px;
+        right: 120px;
+        color: #09c;
+        background: rgba(0, 0, 0, .9);
+        padding: 15px;
+        border-radius: 3px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+        transform: scale(0) rotate(-12deg);
+        transition: all .25s;
+        opacity: 0;
+        writing-mode: horizontal-tb;
+    }
+
+
+    a:focus span {
+        transform: scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
 @media screen and (min-width: 200px) and (max-width: 1100px) {
 
     .about.about-component {

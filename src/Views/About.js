@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Style/About.scss";
 import bobby from "../Assets/bonhomme.svg";
 import { ImLinkedin } from "react-icons/im";
@@ -8,6 +8,17 @@ import { useTranslation } from "react-i18next";
 export default function About() {
   const { t } = useTranslation();
   const getCurrentYear = () => new Date().getFullYear();
+
+  const [copySuccess, setCopySuccess] = useState("");
+
+  const copyToClipBoard = async (copyMe) => {
+    try {
+      await navigator.clipboard.writeText(copyMe);
+      setCopySuccess("Copied");
+    } catch (err) {
+      setCopySuccess("Failed to copy !");
+    }
+  };
   return (
     <div className="about about-component">
       <h2>{t("about.title")}</h2>
@@ -25,16 +36,18 @@ export default function About() {
               <ImGithub size={25} />
             </i>
           </p>
-          {/* <div className="line">
-            <hr />
-          </div> */}
         </div>
         <p>Designed & Built by Remy Delrieu - {getCurrentYear()}</p>
-        <div>
-          <p>remydelrieupro@gmail.com</p>
-          {/* <div className="line">
-            <hr />
-          </div> */}
+        <div className="mail">
+          <p>
+            <a
+              onClick={() => copyToClipBoard("remydelrieupro@gmail.com")}
+              href="#hello"
+            >
+              remydelrieupro@gmail.com
+              <span>{copySuccess}</span>
+            </a>
+          </p>
         </div>
       </div>
     </div>

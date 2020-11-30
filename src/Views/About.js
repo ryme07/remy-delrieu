@@ -37,18 +37,21 @@ export default function About() {
             </i>
           </p>
         </div>
-        <p>Designed & Built by Remy Delrieu - {getCurrentYear()}</p>
+
         <div className="mail">
           <p>
             <a
               onClick={() => copyToClipBoard("remydelrieupro@gmail.com")}
-              href="#hello"
+              href="#sayhello"
             >
               remydelrieupro@gmail.com
               <span>{copySuccess}</span>
             </a>
           </p>
         </div>
+        <p className="designed">
+          Designed & Built by Remy Delrieu - {getCurrentYear()}
+        </p>
       </div>
     </div>
   );

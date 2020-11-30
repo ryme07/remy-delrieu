@@ -3,12 +3,14 @@ import React, { Suspense, useState } from "react";
 import ReactPageScroller from "react-page-scroller";
 import Home from "./Views/Home";
 import Project from "./Views/Project";
-import ProjectMobile from "./Views/ProjectMobile";
 import About from "./Views/About";
 import Hackstar from "./Components/Hackstars";
 import DsiPE from "./Components/DsiPE";
 import Beware from "./Components/Beware";
 import { useTranslation } from "react-i18next";
+import dsiImage from "./Assets/Screenshot.png";
+import bewareImage from "./Assets/Screenshot2.png";
+import hackstarImage from "./Assets/Screenshot3.png";
 
 //NEED A REFACTORIZATION HERE... :(
 const DSIBlock = () => {
@@ -48,7 +50,7 @@ const projects = [
       secondtechno: "Jenkins",
       thirdtechno: "SonarQube",
       cardRenderer: <DsiPE />,
-      imageProject: "Pole",
+      imageProject: dsiImage,
     },
   ],
   [
@@ -60,7 +62,7 @@ const projects = [
       secondtechno: "NodeJs",
       thirdtechno: "TypeOrm",
       cardRenderer: <Beware />,
-      imageProject: "beware",
+      imageProject: bewareImage,
     },
   ],
   [
@@ -72,7 +74,7 @@ const projects = [
       secondtechno: "NodeJS",
       thirdtechno: "Typescript",
       cardRenderer: <Hackstar />,
-      imageProject: "Hack",
+      imageProject: hackstarImage,
     },
   ],
 ];
@@ -118,9 +120,9 @@ function Page() {
   return (
     <ReactPageScroller>
       <Wrapper />
-      <ProjectMobile projects={projects[0]} />
-      <ProjectMobile projects={projects[1]} />
-      <ProjectMobile projects={projects[2]} />
+      <Project projects={projects[0]} />
+      <Project projects={projects[1]} />
+      <Project projects={projects[2]} />
       <About />
     </ReactPageScroller>
   );

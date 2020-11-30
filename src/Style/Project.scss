@@ -1,6 +1,17 @@
 @import "../Css-variables/css-variables.scss";
 
+.contentImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 90vw; */
+    height: 100%;
 
+    img {
+        width: 100%;
+
+    }
+}
 
 .componentProject {
     height: 100%;
@@ -67,16 +78,6 @@ ul.techno>li {
     color: var(--color-additional)
 }
 
-.card {
-    width: 26ch;
-    height: 12ch;
-    padding: 1rem;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
-    border: none;
-}
-
 .contentCard {
     text-align: center;
 }
@@ -85,14 +86,9 @@ ul.techno>li {
     width: 26ch;
     height: 12ch;
     padding: 1rem;
-    background: white;
+    background: transparent;
     border-radius: 5px;
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.5s;
-    will-change: transform;
-    border: none;
-    transform: translateX(-50%) translateY(calc(-50% - 0.2em));
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -113,15 +109,9 @@ ul.techno>li {
         height: 6rem;
     }
 
-    .card {
-        width: 30ch;
-        height: 14ch;
-    }
-
     .card-animated {
         width: 30ch;
         height: 14ch;
-        // padding: 1rem;
     }
 
     .techno {
@@ -144,7 +134,7 @@ ul.techno>li {
 
 
         h2 {
-            font-size: 2.8em;
+            font-size: 2.6em;
         }
 
         h3 {
@@ -161,12 +151,6 @@ ul.techno>li {
     .techno {
         bottom: 5px;
         left: 50px;
-    }
-
-    .card {
-        margin-top: 3.8rem;
-        width: 32ch;
-        height: 16ch;
     }
 
     .card-animated {
@@ -206,7 +190,13 @@ ul.techno>li {
         margin-top: 2.3rem;
         width: 49ch;
         height: 31ch;
-        background: transparent;
+        border-radius: 5px;
+        box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 0.5s;
+        will-change: transform;
+        border: none;
+        transform: translateX(-50%) translateY(calc(-50% - 0.2em));
+        -webkit-font-smoothing: subpixel-antialiased;
     }
 
     .contentCardBeware {
@@ -248,7 +238,7 @@ ul.techno>li {
         width: 52ch;
         height: 31ch;
         padding: 1rem;
-        background: transparent;
+
     }
 
     .contentCardBeware {

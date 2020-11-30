@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Fade, Flip, Zoom } from "react-awesome-reveal";
 import "../Style/Project.scss";
 import { useSpring, animated } from "react-spring";
 
 export default function Project(props) {
+  const [largeur, setLargeur] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const changeWidth = () => setLargeur(window.innerWidth);
+
+    window.addEventListener("resize", changeWidth);
+    return () => {
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, []);
+
   const calc = (x, y) => [
     -(y - window.innerHeight / 2) / 20,
     (x - window.innerWidth / 2) / 20,
@@ -21,26 +32,45 @@ export default function Project(props) {
       {props.projects.map((project, index) => (
         <div className="componentProject" key={index}>
           <div className="container-project">
-            <div className="project">
-              <Fade direction="left" delay={700} className="fade-title">
+            {largeur > 768 ? (
+              <div className="project">
+                <Fade direction="left" delay={700} className="fade-title">
+                  <div className="title-project">
+                    <h2>{project.title}</h2>
+                  </div>
+                </Fade>
+                <Fade direction="top" delay={1800} duration={2500}>
+                  <h3 className="subtitle">{project.subtitle}</h3>
+                </Fade>
+                <Fade direction="left" delay={1000} duration={1300}>
+                  <div className="block">{project.description}</div>
+                </Fade>
+                <Flip direction="vertical" delay={1800} duration={1000}>
+                  <ul className="techno">
+                    <li>{project.framework}</li>
+                    <li>{project.secondtechno}</li>
+                    <li>{project.thirdtechno}</li>
+                  </ul>
+                </Flip>
+              </div>
+            ) : (
+              <div className="project">
                 <div className="title-project">
                   <h2>{project.title}</h2>
                 </div>
-              </Fade>
-              <Fade direction="top" delay={1800} duration={2500}>
+
                 <h3 className="subtitle">{project.subtitle}</h3>
-              </Fade>
-              <Fade direction="left" delay={1000} duration={1300}>
+
                 <div className="block">{project.description}</div>
-              </Fade>
-              <Flip direction="vertical" delay={1800} duration={1000}>
+
                 <ul className="techno">
                   <li>{project.framework}</li>
                   <li>{project.secondtechno}</li>
                   <li>{project.thirdtechno}</li>
                 </ul>
-              </Flip>
-            </div>
+              </div>
+            )}
+
             <div className="container-card">
               <Zoom
                 direction="bottom"
@@ -56,9 +86,15 @@ export default function Project(props) {
                   onMouseLeave={() => set({ xys: [0, 0, 1] })}
                   style={{ transform: propsCard.xys.interpolate(trans) }}
                 >
-                  <div className="contentCardBeware">
-                    {project.cardRenderer}
-                  </div>
+                  {largeur > 992 ? (
+                    <div className="contentCardBeware">
+                      {project.cardRenderer}
+                    </div>
+                  ) : (
+                    <div className="contentImage">
+                      <img src={project.imageProject} alt="about-project" />
+                    </div>
+                  )}
                 </animated.div>
               </Zoom>
             </div>

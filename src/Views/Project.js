@@ -49,7 +49,7 @@ export default function Project(props) {
                 className="zoom-card"
               >
                 <animated.div
-                  className="card"
+                  className="card-animated"
                   onMouseMove={({ clientX: x, clientY: y }) =>
                     set({ xys: calc(x, y) })
                   }

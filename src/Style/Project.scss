@@ -1,8 +1,6 @@
 @import "../Css-variables/css-variables.scss";
 
-.contentCardBeware {
-    display: none;
-}
+
 
 .componentProject {
     height: 100%;
@@ -76,6 +74,20 @@ ul.techno>li {
     background: white;
     border-radius: 5px;
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.contentCard {
+    text-align: center;
+}
+
+.card-animated {
+    width: 26ch;
+    height: 12ch;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.5s;
     will-change: transform;
     border: none;
@@ -101,8 +113,12 @@ ul.techno>li {
         height: 6rem;
     }
 
-
     .card {
+        width: 30ch;
+        height: 14ch;
+    }
+
+    .card-animated {
         width: 30ch;
         height: 14ch;
         // padding: 1rem;
@@ -153,6 +169,12 @@ ul.techno>li {
         height: 16ch;
     }
 
+    .card-animated {
+        margin-top: 3.8rem;
+        width: 32ch;
+        height: 16ch;
+    }
+
 }
 
 
@@ -179,7 +201,8 @@ ul.techno>li {
         left: 85px;
     }
 
-    .card {
+    // CARD ANIMATED
+    .card-animated {
         margin-top: 2.3rem;
         width: 49ch;
         height: 31ch;
@@ -221,7 +244,7 @@ ul.techno>li {
         left: 130px;
     }
 
-    .card {
+    .card-animated {
         width: 52ch;
         height: 31ch;
         padding: 1rem;

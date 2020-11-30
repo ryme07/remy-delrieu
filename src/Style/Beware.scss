@@ -21,7 +21,7 @@
     font-weight: bold;
     font-size: 2.8rem;
     letter-spacing: 2px;
-    margin: 0 0 1rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .beware-bottom {
@@ -88,6 +88,7 @@
 @media screen and (min-width: 600px) and (max-width: 1100px) {
     .title-question {
         font-size: 2rem;
+        margin: 0 0 4rem 0;
     }
 
     .beware-answers {

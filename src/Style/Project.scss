@@ -181,14 +181,15 @@ ul.techno>li {
 
     .card {
         margin-top: 2.3rem;
-        width: 38ch;
-        height: 23ch;
+        width: 49ch;
+        height: 31ch;
         background: transparent;
     }
 
     .contentCardBeware {
         display: flex;
         justify-content: center;
+        align-items: center;
         width: 100%;
         height: 100%;
         filter: blur(0);
@@ -222,7 +223,7 @@ ul.techno>li {
 
     .card {
         width: 52ch;
-        height: 30ch;
+        height: 31ch;
         padding: 1rem;
         background: transparent;
     }

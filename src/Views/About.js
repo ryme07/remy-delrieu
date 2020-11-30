@@ -14,7 +14,7 @@ export default function About() {
   const copyToClipBoard = async (copyMe) => {
     try {
       await navigator.clipboard.writeText(copyMe);
-      setCopySuccess("Copied");
+      setCopySuccess("Email Copied");
     } catch (err) {
       setCopySuccess("Failed to copy !");
     }

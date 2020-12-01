@@ -11,6 +11,8 @@ import { useTranslation } from "react-i18next";
 import dsiImage from "./Assets/Screenshot.png";
 import bewareImage from "./Assets/Screenshot2.png";
 import hackstarImage from "./Assets/Screenshot3.png";
+import { FaAngular, FaVuejs, FaJenkins, FaNodeJs } from "react-icons/fa";
+import { SiSonarqube, SiTypescript } from "react-icons/si";
 
 //NEED A REFACTORIZATION HERE... :(
 const DSIBlock = () => {
@@ -46,9 +48,9 @@ const projects = [
       title: "DSI POLE EMPLOI",
       subtitle: "JRAD V2",
       description: <DSIBlock />,
-      framework: "Angular",
-      secondtechno: "Jenkins",
-      thirdtechno: "SonarQube",
+      framework: <FaAngular size={23} />,
+      secondtechno: <FaJenkins size={23} />,
+      thirdtechno: <SiSonarqube size={23} />,
       cardRenderer: <DsiPE />,
       imageProject: dsiImage,
     },
@@ -58,9 +60,9 @@ const projects = [
       title: "BEWARE CYBERLABS",
       subtitle: "QUIZ APP",
       description: <BewareBlock />,
-      framework: "VueJs",
-      secondtechno: "NodeJs",
-      thirdtechno: "TypeOrm",
+      framework: <FaVuejs size={23} />,
+      secondtechno: <FaNodeJs size={23} />,
+      thirdtechno: <SiTypescript size={23} />,
       cardRenderer: <Beware />,
       imageProject: bewareImage,
     },
@@ -70,9 +72,9 @@ const projects = [
       title: "WEB PROJECTS",
       subtitle: "HACKASTAR",
       description: <HackstarBlock />,
-      framework: "Angular",
-      secondtechno: "NodeJS",
-      thirdtechno: "Typescript",
+      framework: <FaAngular size={23} />,
+      secondtechno: <FaNodeJs size={23} />,
+      thirdtechno: <SiTypescript size={23} />,
       cardRenderer: <Hackstar />,
       imageProject: hackstarImage,
     },

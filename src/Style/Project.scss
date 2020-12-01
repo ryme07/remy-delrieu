@@ -51,8 +51,10 @@
 }
 
 .block {
+    display: flex;
+    align-items: center;
     width: 15rem;
-    height: 8rem;
+    height: 7rem;
     margin: 0.5rem 0 0 0;
     background-color: var(--color-secondary);
     padding: 1rem;
@@ -64,8 +66,8 @@
 
 .techno {
     position: relative;
-    bottom: 10px;
-    left: 30px;
+    bottom: 6px;
+    left: 72px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -74,7 +76,7 @@
 }
 
 ul.techno>li {
-    margin-right: 1%;
+    margin-right: 2%;
     color: var(--color-additional)
 }
 
@@ -116,8 +118,8 @@ ul.techno>li {
 
     .techno {
         position: relative;
-        bottom: 8px;
-        left: 50px;
+        bottom: 5px;
+        left: 98px;
 
     }
 }
@@ -150,7 +152,7 @@ ul.techno>li {
 
     .techno {
         bottom: 5px;
-        left: 50px;
+        left: 96px;
     }
 
     .card-animated {
@@ -182,7 +184,7 @@ ul.techno>li {
 
     .techno {
         bottom: 5px;
-        left: 85px;
+        left: 128px;
     }
 
     // CARD ANIMATED
@@ -231,7 +233,7 @@ ul.techno>li {
     .techno {
         font-size: 16px;
         bottom: 5px;
-        left: 130px;
+        left: 190px;
     }
 
     .card-animated {

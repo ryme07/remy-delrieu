@@ -8,13 +8,13 @@ import { useTranslation } from "react-i18next";
 export default function About() {
   const { t } = useTranslation();
   const getCurrentYear = () => new Date().getFullYear();
-
   const [copySuccess, setCopySuccess] = useState("");
 
   const copyToClipBoard = async (copyMe) => {
     try {
       await navigator.clipboard.writeText(copyMe);
       setCopySuccess("Email Copied");
+      console.log("Hello !");
     } catch (err) {
       setCopySuccess("Failed to copy !");
     }

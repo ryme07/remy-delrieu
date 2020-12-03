@@ -14,7 +14,9 @@ import hackstarImage from "./Assets/Screenshot3.png";
 import { FaAngular, FaVuejs, FaJenkins, FaNodeJs } from "react-icons/fa";
 import { SiSonarqube, SiTypescript } from "react-icons/si";
 
-//NEED A REFACTORIZATION HERE... :(
+/*NEED A REFACTORIZATION HERE... :(
+  ReactPageScroller create some bugs with translation props.
+  */
 const DSIBlock = () => {
   const { t } = useTranslation();
   return (
@@ -87,7 +89,6 @@ function Wrapper() {
 
   const toggleButton = () => {
     setActive(!active);
-    console.log("clicked");
   };
 
   const changeLanguage = (lng) => {

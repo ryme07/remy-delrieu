@@ -41,7 +41,6 @@
 }
 
 .icons {
-
     i {
         color: var(--color-additional);
         padding: 0.5rem;
@@ -51,8 +50,6 @@
 
 
 .mail {
-
-
     a {
         color: var(--color-additional);
         text-decoration: none;
@@ -62,8 +59,6 @@
     a span {
         display: none;
     }
-
-
 }
 
 .designed {
@@ -118,7 +113,6 @@
 
     .mail {
         a {
-
             color: var(--color-primary);
         }
 
@@ -137,7 +131,6 @@
             opacity: 0;
             writing-mode: horizontal-tb;
         }
-
 
         a:focus span {
             transform: scale(1) rotate(0);
@@ -162,15 +155,12 @@
     }
 
     .about-container {
-
-
         p {
             font-size: 1.8em;
         }
     }
 
     .mail {
-
         a span {
             position: absolute;
             top: 200px;
@@ -178,118 +168,3 @@
         }
     }
 }
-
-// .about-component {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-start;
-//     height: 100%;
-//     position: relative;
-
-//     h2 {
-//         padding: 1rem;
-//         margin: 2rem 0 0 3rem;
-//         font-family: 'Ubuntu', sans-serif;
-//         font-weight: 500;
-//         font-size: 5rem;
-//         color: var(--color-primary);
-//     }
-// }
-
-// .about-container {
-//     display: flex;
-//     justify-content: space-evenly;
-//     align-items: center;
-//     height: 60%;
-// }
-
-// .describeMe {
-//     display: flex;
-//     width: 650px;
-//     justify-content: center;
-//     align-items: center;
-//     font-size: 1.6rem;
-//     padding: 3.33rem;
-//     color: var(--color-white);
-//     font-family: 'Poppins', sans-serif;
-//     margin: 0;
-//     line-height: 1.2;
-//     font-weight: 300;
-//     text-align: justify;
-
-
-//     span {
-//         display: contents;
-//         color: var(--color-primary);
-//     }
-
-// }
-
-
-
-// .contact-container {
-//     position: absolute;
-//     bottom: 0;
-//     left: 0;
-//     width: 100%;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     height: 40%;
-//     align-items: flex-end;
-
-//     p {
-//         color: var(--color-additional);
-//         padding: 0.5rem 5rem;
-//     }
-
-//     p:nth-child(odd) {
-//         writing-mode: vertical-lr;
-//     }
-// }
-
-
-// .icons {
-
-//     i {
-//         color: var(--color-additional);
-//         padding: 0.5rem;
-//         cursor: pointer;
-//     }
-// }
-
-// .image {
-//     padding: 6rem;
-// }
-
-// .mail {
-//     a {
-//         color: #ccc;
-//         text-shadow: 0 -1px 0 black;
-//         color: var(--color-additional);
-//         text-decoration: none;
-//     }
-
-
-//     a span {
-//         position: absolute;
-
-//         top: 0px;
-//         right: 120px;
-//         color: var(--color-additional);
-//         background: rgba(0, 0, 0, .9);
-//         padding: 15px;
-//         border-radius: 3px;
-//         box-shadow: 0 0 2px rgba(0, 0, 0, .5);
-//         transform: scale(0) rotate(-12deg);
-//         transition: all .25s;
-//         opacity: 0;
-//         writing-mode: horizontal-tb;
-//     }
-
-
-//     a:focus span {
-//         transform: scale(1) rotate(0);
-//         opacity: 1;
-//     }
-// }

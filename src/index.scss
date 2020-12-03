@@ -1,13 +1,10 @@
 @import "./Css-variables/scss-variables.scss";
 @import "./Css-variables/css-variables.scss";
 
-/*https://dev.to/s0xzwasd/using-scss-css-variables-in-react-322j*/
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu', 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  // -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--color-background);
   -webkit-font-smoothing: subpixel-antialiased;

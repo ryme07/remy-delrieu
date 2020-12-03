@@ -12,7 +12,6 @@ export default function Beware() {
     <div key={answer.name}>{answer.name}</div>
   ));
   return (
-    //https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg
     <Zoom direction="bottom" delay={1000} duration={2000}>
       <div className="beware-container">
         <div className="title-question">QUESTION ?</div>

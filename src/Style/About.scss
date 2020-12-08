@@ -3,7 +3,7 @@
 .about-component {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     position: relative;
@@ -28,7 +28,7 @@
     p {
         font-family: 'Poppins', sans-serif;
         line-height: 1.1;
-        font-size: 1.2em;
+        font-size: 1em;
         color: var(--color-white);
     }
 }
@@ -45,6 +45,10 @@
         color: var(--color-additional);
         padding: 0.5rem;
         cursor: pointer;
+    }
+
+    a {
+        color: var(--color-additional);
     }
 }
 

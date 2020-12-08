@@ -141,7 +141,9 @@ ul.techno>li {
         h3 {
             font-size: 0.8em;
             font-weight: lighter;
-            margin-left: 15.5rem;
+            position: relative;
+            bottom: 6px;
+            left: 123px;
         }
     }
 
@@ -172,7 +174,7 @@ ul.techno>li {
         }
 
         h3 {
-            margin-left: 19.3rem;
+            left: 153px;
             margin-bottom: 0.1rem;
         }
     }
@@ -219,7 +221,7 @@ ul.techno>li {
         }
 
         h3 {
-            margin-left: 27.3rem;
+            left: 213px;
         }
     }
 

@@ -30,10 +30,22 @@ export default function About() {
         <div className="icons">
           <p>
             <i>
-              <ImLinkedin size={25} />
+              <a
+                href="https://www.linkedin.com/in/remy-delrieu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ImLinkedin size={25} />
+              </a>
             </i>
             <i>
-              <ImGithub size={25} />
+              <a
+                href="https://github.com/ryme07"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ImGithub size={25} />
+              </a>
             </i>
           </p>
         </div>
@@ -41,10 +53,10 @@ export default function About() {
         <div className="mail">
           <p>
             <a
-              onClick={() => copyToClipBoard("remydelrieupro@gmail.com")}
+              onClick={() => copyToClipBoard("remydelrieudev@gmail.com")}
               href="#sayhello"
             >
-              remydelrieupro@gmail.com
+              remydelrieudev@gmail.com
               <span>{copySuccess}</span>
             </a>
           </p>

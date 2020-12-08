@@ -4,12 +4,12 @@
         "title": "Web Developer Freelance"
     },
     "project": {
-        "descriptionDSI": "An App based on the HMI model (Human-Machine Interface) who presents results of the different Pôle Emploi's projects in developpment. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
+        "descriptionDSI": "An App based on the HMI model (Human-Machine Interface) who presents results of the different Pôle Emploi's projects in development. They needed to get the metrics from Jenkins and SonarQube in the same place. This app has been realised in Test Driven Devlopment.",
         "descriptionBeware": "Beware Cyberlabs is a cybersecurity company. They propose many solutions to secure your system and to prevent cyber attacks. This app allow to learn cyber security by means of lessons and quiz. This design is not the real one.",
         "descriptionWebProjects": "This part concern the different projects realized during two hackathons of 24 hours. The first one is a Netflix's clone with an horror theme. The second is about stars and NASA. Those projects were made with Angular, Material Design and NodeJs."
     },
     "about": {
         "title": "ABOUT ME",
-        "me": "I am a web developper in freelance specialized in Javascript and I use the main frameworks like React (this portfolio for example), Angular or VueJs for the App developpment. I can also make mobile app with React Native, and recently Flutter. For the Backend, I use NodeJs or Java Spring."
+        "me": "I am a web developer in freelance specialized in Javascript and I use the main frameworks like React (this portfolio for example), Angular or VueJs for the App developpment. I can also make mobile app with React Native, and recently Flutter. For the Backend, I use NodeJs or Java Spring."
     }
 }

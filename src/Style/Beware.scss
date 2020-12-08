@@ -86,13 +86,13 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 1100px) {
+
     .title-question {
         font-size: 2rem;
         margin: 0 0 4rem 0;
     }
 
     .beware-answers {
-
 
         div {
             height: 80px;
@@ -110,83 +110,9 @@
 
     .beware-validate {
 
-
         button {
             padding: 0.5rem 1rem;
             font-size: 12px;
         }
-    }
-}
-
-
-
-
-
-
-// @-webkit-keyframes drawing {
-//     0% {
-//         border: 0px solid var(--color-additional);
-
-//     }
-
-//     50% {
-//         border: 3px solid var(--color-additional);
-
-//     }
-
-//     100% {
-//         border: 5px solid var(--color-additional);
-
-//     }
-// }
-
-// @-moz-keyframes drawing {
-//     0% {
-//         border: 0px solid var(--color-additional);
-
-//     }
-
-//     50% {
-//         border: 3px solid var(--color-additional);
-
-//     }
-
-//     100% {
-//         border: 5px solid var(--color-additional);
-
-//     }
-// }
-
-// @-o-keyframes drawing {
-//     0% {
-//         border: 0px solid var(--color-additional);
-
-//     }
-
-//     50% {
-//         border: 3px solid var(--color-additional);
-
-//     }
-
-//     100% {
-//         border: 5px solid var(--color-additional);
-
-//     }
-// }
-
-@keyframes drawing {
-    0% {
-        border: 0px solid var(--color-additional);
-
-    }
-
-    50% {
-        border: 3px solid var(--color-additional);
-
-    }
-
-    100% {
-        border: 5px solid var(--color-additional);
-
     }
 }

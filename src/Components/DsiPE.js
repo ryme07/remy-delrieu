@@ -103,7 +103,7 @@ export default function DsiPE() {
               <p>JOB</p>
               <p className="green">TU : TOTAL : 2 SKIP: 0 FAILED: 0</p>
               <p className="orange">TI : TOTAL: 2 SKIP: 2 FAILED: 0</p>
-              <p className="red">TS: TOTAL: 2 SKIP: 0 FAILED: 1</p>
+              <p className="red">TS: TOTAL: 2 SKIP: 0 FAILED: 2</p>
               <p>
                 LAST COMMIT : {getCurrentDate()} <br />
                 SOME DATA FROM GITHUB

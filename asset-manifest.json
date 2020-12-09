@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/remydelrieu/static/css/main.78b8d117.chunk.css",
-    "main.js": "/remydelrieu/static/js/main.9e27dc2a.chunk.js",
-    "main.js.map": "/remydelrieu/static/js/main.9e27dc2a.chunk.js.map",
-    "runtime-main.js": "/remydelrieu/static/js/runtime-main.e8ceef21.js",
-    "runtime-main.js.map": "/remydelrieu/static/js/runtime-main.e8ceef21.js.map",
-    "static/js/2.236f3289.chunk.js": "/remydelrieu/static/js/2.236f3289.chunk.js",
-    "static/js/2.236f3289.chunk.js.map": "/remydelrieu/static/js/2.236f3289.chunk.js.map",
-    "static/js/3.5cec6113.chunk.js": "/remydelrieu/static/js/3.5cec6113.chunk.js",
-    "static/js/3.5cec6113.chunk.js.map": "/remydelrieu/static/js/3.5cec6113.chunk.js.map",
+    "main.css": "/remydelrieu/static/css/main.ed63ace8.chunk.css",
+    "main.js": "/remydelrieu/static/js/main.17e7ad55.chunk.js",
+    "main.js.map": "/remydelrieu/static/js/main.17e7ad55.chunk.js.map",
+    "runtime-main.js": "/remydelrieu/static/js/runtime-main.68f5a7a8.js",
+    "runtime-main.js.map": "/remydelrieu/static/js/runtime-main.68f5a7a8.js.map",
+    "static/js/2.fd702f64.chunk.js": "/remydelrieu/static/js/2.fd702f64.chunk.js",
+    "static/js/2.fd702f64.chunk.js.map": "/remydelrieu/static/js/2.fd702f64.chunk.js.map",
+    "static/js/3.478ac116.chunk.js": "/remydelrieu/static/js/3.478ac116.chunk.js",
+    "static/js/3.478ac116.chunk.js.map": "/remydelrieu/static/js/3.478ac116.chunk.js.map",
     "index.html": "/remydelrieu/index.html",
-    "static/css/main.78b8d117.chunk.css.map": "/remydelrieu/static/css/main.78b8d117.chunk.css.map",
-    "static/js/2.236f3289.chunk.js.LICENSE.txt": "/remydelrieu/static/js/2.236f3289.chunk.js.LICENSE.txt",
+    "static/css/main.ed63ace8.chunk.css.map": "/remydelrieu/static/css/main.ed63ace8.chunk.css.map",
+    "static/js/2.fd702f64.chunk.js.LICENSE.txt": "/remydelrieu/static/js/2.fd702f64.chunk.js.LICENSE.txt",
     "static/media/Screenshot.5934ecd0.png": "/remydelrieu/static/media/Screenshot.5934ecd0.png",
     "static/media/Screenshot2.fd4df442.png": "/remydelrieu/static/media/Screenshot2.fd4df442.png",
     "static/media/Screenshot3.97639b1f.png": "/remydelrieu/static/media/Screenshot3.97639b1f.png",
@@ -19,9 +19,9 @@
     "static/media/getFetch.cjs": "/remydelrieu/static/media/getFetch.d7d6010d.cjs"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8ceef21.js",
-    "static/js/2.236f3289.chunk.js",
-    "static/css/main.78b8d117.chunk.css",
-    "static/js/main.9e27dc2a.chunk.js"
+    "static/js/runtime-main.68f5a7a8.js",
+    "static/js/2.fd702f64.chunk.js",
+    "static/css/main.ed63ace8.chunk.css",
+    "static/js/main.17e7ad55.chunk.js"
   ]
 }

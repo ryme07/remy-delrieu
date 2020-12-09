@@ -13,43 +13,14 @@ import bewareImage from "./Assets/Screenshot2.png";
 import hackstarImage from "./Assets/Screenshot3.png";
 import { FaAngular, FaVuejs, FaJenkins, FaNodeJs } from "react-icons/fa";
 import { SiSonarqube, SiTypescript } from "react-icons/si";
-
-/*NEED A REFACTORIZATION HERE... :(
-  ReactPageScroller create some bugs with translation props.
-  */
-const DSIBlock = () => {
-  const { t } = useTranslation();
-  return (
-    <React.Fragment>
-      <p className="description">{t("project.descriptionDSI")}</p>
-    </React.Fragment>
-  );
-};
-
-const BewareBlock = () => {
-  const { t } = useTranslation();
-  return (
-    <React.Fragment>
-      <p className="description">{t("project.descriptionBeware")}</p>
-    </React.Fragment>
-  );
-};
-
-const HackstarBlock = () => {
-  const { t } = useTranslation();
-  return (
-    <React.Fragment>
-      <p className="description">{t("project.descriptionWebProjects")}</p>
-    </React.Fragment>
-  );
-};
+import DescriptionBlock from "./Components/DescriptionBlock";
 
 const projects = [
   [
     {
       title: "DSI POLE EMPLOI",
       subtitle: "JRAD V2",
-      description: <DSIBlock />,
+      description: <DescriptionBlock translate={"project.descriptionDSI"} />,
       framework: <FaAngular size={23} />,
       secondtechno: <FaJenkins size={23} />,
       thirdtechno: <SiSonarqube size={23} />,
@@ -61,7 +32,7 @@ const projects = [
     {
       title: "BEWARE CYBERLABS",
       subtitle: "QUIZ APP",
-      description: <BewareBlock />,
+      description: <DescriptionBlock translate={"project.descriptionBeware"} />,
       framework: <FaVuejs size={23} />,
       secondtechno: <FaNodeJs size={23} />,
       thirdtechno: <SiTypescript size={23} />,
@@ -73,7 +44,9 @@ const projects = [
     {
       title: "WEB PROJECTS",
       subtitle: "HACKASTAR",
-      description: <HackstarBlock />,
+      description: (
+        <DescriptionBlock translate={"project.descriptionWebProjects"} />
+      ),
       framework: <FaAngular size={23} />,
       secondtechno: <FaNodeJs size={23} />,
       thirdtechno: <SiTypescript size={23} />,

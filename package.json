@@ -1,8 +1,7 @@
 {
-  "name": "remy-delrieu",
+  "name": "remydelrieu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ryme07.github.io/remydelrieu",
   "engines": {
     "npm": "6.14.8",
     "node": "10.19.0"

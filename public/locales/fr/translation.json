@@ -5,7 +5,7 @@
     },
     "project": {
         "descriptionDSI": "Une Application de type IHM (Interface Homme-Machine) qui présente les différents projets de Pôle Emploi en cours de développement. Ils avaient besoin de récupérer les métriques de Jenkins et SonarQube au même endroit. Elle a été réalisée en Test Driven Development(TDD).",
-        "descriptionBeware": "Beware Cyberlabs propose des solutions pour sécuriser vos systèmes et se prémunir des attaques. Cette application permet notamment d'apprendre la cybersécurité à travers des leçons et des quiz. Ce design ne représente pas celui de la version finale.",
+        "descriptionBeware": "Beware Cyberlabs propose des solutions pour sécuriser vos systèmes et se prémunir des cyber attaques. Cette application permet notamment d'apprendre la cybersécurité à travers des leçons et des quiz. Ce design ne représente pas celui de la version finale.",
         "descriptionWebProjects": "Cette partie concerne les différents projets réalisés durant deux hackathons de 24 heures. Le premier est un clone de Netflix sur le thème de l'horreur. Le second avait pour sujet les étoiles et la NASA. Ces projets ont été conçus avec Angular, Material Design et NodeJs."
     },
     "about": {

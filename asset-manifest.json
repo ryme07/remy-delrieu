@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/remy-delrieu/static/css/main.78b8d117.chunk.css",
+    "main.js": "/remy-delrieu/static/js/main.1447e7a5.chunk.js",
+    "main.js.map": "/remy-delrieu/static/js/main.1447e7a5.chunk.js.map",
+    "runtime-main.js": "/remy-delrieu/static/js/runtime-main.7812be61.js",
+    "runtime-main.js.map": "/remy-delrieu/static/js/runtime-main.7812be61.js.map",
+    "static/js/2.d2dec463.chunk.js": "/remy-delrieu/static/js/2.d2dec463.chunk.js",
+    "static/js/2.d2dec463.chunk.js.map": "/remy-delrieu/static/js/2.d2dec463.chunk.js.map",
+    "static/js/3.be2a24cc.chunk.js": "/remy-delrieu/static/js/3.be2a24cc.chunk.js",
+    "static/js/3.be2a24cc.chunk.js.map": "/remy-delrieu/static/js/3.be2a24cc.chunk.js.map",
+    "index.html": "/remy-delrieu/index.html",
+    "static/css/main.78b8d117.chunk.css.map": "/remy-delrieu/static/css/main.78b8d117.chunk.css.map",
+    "static/js/2.d2dec463.chunk.js.LICENSE.txt": "/remy-delrieu/static/js/2.d2dec463.chunk.js.LICENSE.txt",
+    "static/media/Screenshot.5934ecd0.png": "/remy-delrieu/static/media/Screenshot.5934ecd0.png",
+    "static/media/Screenshot2.fd4df442.png": "/remy-delrieu/static/media/Screenshot2.fd4df442.png",
+    "static/media/Screenshot3.97639b1f.png": "/remy-delrieu/static/media/Screenshot3.97639b1f.png",
+    "static/media/bonhomme.f8372894.svg": "/remy-delrieu/static/media/bonhomme.f8372894.svg",
+    "static/media/getFetch.cjs": "/remy-delrieu/static/media/getFetch.d7d6010d.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7812be61.js",
+    "static/js/2.d2dec463.chunk.js",
+    "static/css/main.78b8d117.chunk.css",
+    "static/js/main.1447e7a5.chunk.js"
+  ]
+}
